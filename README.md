@@ -7,6 +7,7 @@ Some basic PHP files reading database and sending data as JSON response for Andr
 Code should be considered as insecure in production environment.
 
 ## Client
+
 Android APP prepared for Android 4.3/4.4
 -----------------------------------------
 
