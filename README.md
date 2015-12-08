@@ -8,7 +8,7 @@ Code should be considered as insecure in production environment.
 
 ## Client
 
-### Android APP prepared for Android 4.3/4.4
+#### Android APP prepared for Android 4.3/4.4
 -----------------------------------------
 
 Code may (and probably is) full of bugs. Project has been dropped as our competition did their job faster and better.
