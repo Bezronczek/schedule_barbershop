@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Terminarz</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zarejestruj_wizyt_">Zarejestruj wizytę</string>
+    <string name="title_activity_register_visit">RegisterVisitActivity</string>
+    <string name="rejestracja_wizyty">Rejestracja Wizyty</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="numer_telefonu">Numer telefonu</string>
+    <string name="adres_email">Adres e-mail</string>
+    <string name="zarejestruj">Zarejestruj</string>
+
+
+</resources>

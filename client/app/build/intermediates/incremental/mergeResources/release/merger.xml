@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="C:\Projekty\Terminarz\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Projekty\Terminarz\app\src\main\res" >
+            <file
+                name="bg_card"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable\bg_card.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="placeholder_empty_employees_list"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable\placeholder_empty_employees_list.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_action_accept.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_cancel"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_action_cancel.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_action_edit.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_action_new.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_refresh"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_action_refresh.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_action_accept.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_cancel"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_action_cancel.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_action_edit.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_action_new.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_refresh"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_action_refresh.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_action_accept.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_cancel"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_action_cancel.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_action_edit.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_action_new.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_refresh"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_action_refresh.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xxhdpi\ic_action_accept.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_cancel"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xxhdpi\ic_action_cancel.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xxhdpi\ic_action_edit.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xxhdpi\ic_action_new.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_action_refresh"
+                path="C:\Projekty\Terminarz\app\src\main\res\drawable-xxhdpi\ic_action_refresh.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_appointment_details"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\activity_appointment_details.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_appointment_edit"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\activity_appointment_edit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_register_visit"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\activity_register_visit.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_show_appointments"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\activity_show_appointments.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_header"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\group_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="group_item"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\group_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main_screen"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\main_screen.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="navigation_item"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\navigation_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="placeholder_no_employees_list"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\placeholder_no_employees_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="services_spinner_view"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\services_spinner_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_dropdown_centered_text"
+                path="C:\Projekty\Terminarz\app\src\main\res\layout\spinner_dropdown_centered_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="appointments_action_bar"
+                path="C:\Projekty\Terminarz\app\src\main\res\menu\appointments_action_bar.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="appointment_detail_action_bar"
+                path="C:\Projekty\Terminarz\app\src\main\res\menu\appointment_detail_action_bar.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="appointment_detail_action_bar_edit_mode"
+                path="C:\Projekty\Terminarz\app\src\main\res\menu\appointment_detail_action_bar_edit_mode.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main_menu"
+                path="C:\Projekty\Terminarz\app\src\main\res\menu\main_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="register_visit"
+                path="C:\Projekty\Terminarz\app\src\main\res\menu\register_visit.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="rejestracja_wizyty" >Rejestracja Wizyty
+                </string>
+                <string name="adres_email" >Adres e-mail
+                </string>
+                <string name="numer_telefonu" >Numer telefonu
+                </string>
+                <string name="imie" >Imię
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_register_visit" >RegisterVisitActivity
+                </string>
+                <string name="zarejestruj" >Zarejestruj
+                </string>
+                <string name="app_name" >Terminarz
+                </string>
+                <string name="zarejestruj_wizyt_" >Zarejestruj wizytę
+                </string>
+                <string name="nazwisko" >Nazwisko
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+            </file>
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Projekty\Terminarz\app\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="C:\Projekty\Terminarz\app\build\generated\res\rs\release" />
+        <source path="C:\Projekty\Terminarz\app\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Projekty\Terminarz\app\src\release\res" />
+    </dataSet>
+
+</merger>

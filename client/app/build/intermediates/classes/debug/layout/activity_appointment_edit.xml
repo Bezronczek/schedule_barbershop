@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="8dp"
+    tools:context=".AppointmentDetailsActivity">
+    
+<!-- Name -->
+
+    <TextView 
+       android:id="@+id/tvAppointmentNameEdit"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="@string/imie"
+       android:textStyle="bold"
+       />
+    <EditText 
+       android:id="@+id/etAppointmentNameValueEdit"
+       android:layout_alignParentTop="true"
+       android:layout_toRightOf="@id/tvAppointmentNameEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"
+       android:gravity="center_horizontal"
+       />
+    
+<!--     Surname -->
+
+     <TextView 
+       android:id="@+id/tvAppointmentSurnameEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentNameEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="@string/nazwisko"
+       android:textStyle="bold"
+       />
+    <EditText 
+       android:id="@+id/etAppointmentSurnameValueEdit"
+       android:layout_below="@id/etAppointmentNameValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentSurnameEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"
+        android:gravity="center_horizontal"
+       />
+    
+<!--     Service -->
+    
+ 	<TextView 
+       android:id="@+id/tvAppointmentServiceEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentSurnameEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Usługa"
+       android:textStyle="bold"
+       />
+    <Spinner
+       android:id="@+id/sAppointmentServiceValueEdit"
+       android:layout_below="@id/etAppointmentSurnameValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentServiceEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="300dp"
+       android:padding="8dp"
+        android:gravity="center_horizontal"
+     />
+
+<!--    Registered to Employee -->
+    
+    <TextView 
+       android:id="@+id/tvAppointmentEmployeeEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentServiceEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Zarejestrowany do"
+       android:textStyle="bold"
+       />
+    <Spinner 
+       android:id="@+id/sAppointmentEmployeeValueEdit"
+       android:layout_below="@id/sAppointmentServiceValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentEmployeeEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="300dp"
+       android:padding="8dp"    
+        android:gravity="center_horizontal"  
+     />
+    
+<!--     Phone -->
+    
+    <TextView 
+       android:id="@+id/tvAppointmentPhoneEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentEmployeeEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Telefon"
+       android:textStyle="bold"
+       />
+    <EditText 
+       android:id="@+id/etAppointmentPhoneValueEdit"
+       android:layout_below="@id/sAppointmentEmployeeValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentPhoneEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"      
+        android:gravity="center_horizontal"
+     />
+    
+<!--     Email -->
+    
+    <TextView 
+       android:id="@+id/tvAppointmentEmailEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentPhoneEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Email"
+       android:textStyle="bold"
+       />
+    <EditText
+       android:id="@+id/etAppointmentEmailValueEdit"
+       android:layout_below="@id/etAppointmentPhoneValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentEmailEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"      
+        android:gravity="center_horizontal"
+     />
+    
+<!--     Hour -->
+    
+    <TextView 
+       android:id="@+id/tvAppointmentHourEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentEmailEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Godzina"
+       android:textStyle="bold"
+       />
+    <Spinner
+       android:id="@+id/sAppointmentHourValueEdit"
+       android:layout_below="@id/etAppointmentEmailValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentHourEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="300dp"
+       android:padding="8dp"      
+        android:gravity="center_horizontal"
+     />
+    
+<!--     Date -->
+    
+     <TextView 
+       android:id="@+id/tvAppointmentDateEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentHourEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Data"
+       android:textStyle="bold"
+       />
+    <Spinner
+       android:id="@+id/sAppointmentDateValueEdit"
+       android:layout_below="@id/sAppointmentHourValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentDateEdit"
+       android:textSize="22sp"
+       android:layout_height="48dp"
+       android:layout_width="300dp"
+       android:padding="8dp"      
+        android:gravity="center_horizontal"
+     />
+    
+<!--     Register timestamp -->
+    
+    <TextView 
+       android:id="@+id/tvAppointmentRegisteredEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentDateEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Utworzono"
+       android:textStyle="bold"
+       />
+    <TextView
+       android:id="@+id/etAppointmentRegisteredValueEdit"
+       android:layout_below="@id/sAppointmentDateValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentRegisteredEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"      
+       android:gravity="center_horizontal"
+     />
+    
+<!--     Confirmation -->
+    
+     <TextView 
+       android:id="@+id/tvAppointmentConfirmedEdit"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@id/tvAppointmentRegisteredEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="200dp"
+       android:padding="8dp"
+       android:paddingRight="16dp"
+       android:text="Potwierdzona"
+       android:textStyle="bold"
+       />
+    <Spinner
+       android:id="@+id/sAppointmentConfirmedValueEdit"
+       android:layout_below="@id/etAppointmentRegisteredValueEdit"
+       android:layout_toRightOf="@id/tvAppointmentConfirmedEdit"
+       android:textSize="22sp"
+       android:layout_height="wrap_content"
+       android:layout_width="300dp"
+       android:padding="8dp"     
+        android:gravity="center_horizontal" 
+     />
+
+</RelativeLayout>

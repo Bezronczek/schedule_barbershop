@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="?android:listPreferredItemHeight">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:background="@drawable/bg_card">
+    
+    <TextView
+        android:id="@+id/tvItemHour"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:layout_toLeftOf="@+id/tvItemClientName" />
+    
+	<TextView android:id="@id/tvItemClientName"
+	    android:textSize="18sp"
+	    android:textStyle="bold"
+	    android:layout_height="wrap_content"
+	    android:layout_width="200dp"
+	    android:paddingTop="4dp"
+	    android:paddingBottom="4dp"
+	    android:layout_toLeftOf="@+id/tvItemPhone" />
+	<TextView android:id="@+id/tvItemServiceName"
+	    android:textSize="18sp"
+	    android:textStyle="italic"
+	    android:layout_height="wrap_content"
+	    android:layout_width="400dp"
+	    android:paddingTop="4dp"
+	    android:paddingBottom="4dp"
+	    android:layout_toRightOf="@id/tvItemHour"
+	    android:layout_below="@id/tvItemClientName"
+	    android:layout_alignParentRight="true"/>
+	<TextView
+	    android:id="@id/tvItemPhone"
+	    android:textSize="18sp"
+	    android:layout_alignParentRight="true"
+	    android:layout_height="wrap_content"
+	    android:layout_width="200dp" 
+	    android:layout_above="@id/tvItemServiceName"/>
+</RelativeLayout>
+</FrameLayout><!-- From: file:/C:/Projekty/Terminarz/app/src/main/res/layout/group_item.xml -->
