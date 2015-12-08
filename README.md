@@ -15,3 +15,5 @@ Code may be (and probably is) full of bugs. Project has been dropped as our comp
 Application should compile without errors.
 
 Designed for 7" tablet in portrait mode.
+
+License: MIT
