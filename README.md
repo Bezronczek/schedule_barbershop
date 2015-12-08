@@ -1,5 +1,5 @@
 # schedule_barbershop
-Project dropped in the middle of works. Has a lot of bug and incomplete code
+Project dropped in the middle of work. Has a lot of bugs and incomplete code
 
 ## Server
 
